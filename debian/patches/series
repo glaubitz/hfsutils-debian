@@ -1,6 +1,0 @@
-01_fix_build-system.dpatch
-280310_ftbfs_include_gcc3.4.dpatch
-hattrib-man.diff
-man-macros.diff
-lfs.diff
-use-interp-result.diff

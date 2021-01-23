@@ -239,6 +239,7 @@ then
 	"$tk_dir/include"				\
 	"$tk_dir/../include"				\
 	`echo "$tk_dir" | sed -e 's|/lib|/include|'`	\
+	$TCL_PREFIX/include/tcl*			\
 	;						\
     do
 	if test -r "$dir/tk.h"

@@ -86,6 +86,7 @@ depend ::
 
 clean ::
 	rm -f $(TARGETS) *.o gmon.* core
+	rm -f os.c
 
 distclean :: clean
 	rm -f config.status config.cache config.log config.h Makefile

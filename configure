@@ -1579,6 +1579,7 @@ echo "configure:1572: checking for tk.h" >&5
 	"$tk_dir/include"				\
 	"$tk_dir/../include"				\
 	`echo "$tk_dir" | sed -e 's|/lib|/include|'`	\
+	$TCL_PREFIX/include/tcl*			\
 	;						\
     do
 	if test -r "$dir/tk.h"

@@ -1,7 +1,7 @@
 Source: hfsutils
 Section: otherosfs
 Priority: optional
-Maintainer: Debian QA Group <packages@qa.debian.org>
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Standards-Version: 4.1.3
 Build-Depends: debhelper (>= 10), tcl-dev, tk-dev
 Homepage: http://www.mars.org/home/rob/proj/hfs/

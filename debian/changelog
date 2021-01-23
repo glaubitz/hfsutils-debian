@@ -1,3 +1,15 @@
+hfsutils (3.2.6-15) unstable; urgency=medium
+
+  * Set myself as maintainer in debian/control (Closes: #677770)
+  * Drop all patches in debian/patches
+  * Re-add patch to fix build system issues
+  * Re-add patch to fix FTBFS with gcc-3.4
+  * Re-add patch to add support for files larger than 2GB
+  * Re-add patch to add -DUSE_INTERP_RESULT to DEFINES in Makefile.in
+  * Add Vcs-* fields to debian/control
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Sat, 23 Jan 2021 15:23:26 +0100
+
 hfsutils (3.2.6-14) unstable; urgency=medium
 
   * QA upload.

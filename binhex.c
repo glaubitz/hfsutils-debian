@@ -38,8 +38,6 @@ int dup(int);
 
 const char *bh_error = "no error";
 
-extern int errno;
-
 # define ERROR(code, str)	(bh_error = (str), errno = (code))
 
 static FILE *file;			/* input/output file */

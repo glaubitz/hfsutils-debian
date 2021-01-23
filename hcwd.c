@@ -43,8 +43,6 @@ static mountent *mounts = 0;
 static int mtabsz = 0, nmounts = 0;
 static int curvol = -1, dirty = 0;
 
-extern int errno;
-
 /*
  * NAME:	addent()
  * DESCRIPTION:	insert mount entry into table

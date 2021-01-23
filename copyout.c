@@ -49,8 +49,6 @@ int dup(int);
 
 const char *cpo_error = "no error";
 
-extern int errno;
-
 # define ERROR(code, str)	(cpo_error = (str), errno = (code))
 
 # define MACB_BLOCKSZ	128

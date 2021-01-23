@@ -29,6 +29,7 @@
 
 # include <stdio.h>
 # include <stdlib.h>
+# include <errno.h>
 # include <string.h>
 # include <ctype.h>
 # include <limits.h>
@@ -43,8 +44,6 @@
 # include "charset.h"
 # include "suid.h"
 # include "version.h"
-
-extern int errno;
 
 # define ERROR(code, str)	(hfs_error = (str), errno = (code))
 
